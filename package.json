@@ -1,0 +1,16 @@
+{
+  "name": "mern-food-donation-marketplace",
+  "version": "1.0.0",
+  "description": "Full Stack MERN Food Donation Marketplace connecting excess food donors with NGOs",
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "npm --prefix client run dev",
+    "dev:server": "node --watch server/index.js",
+    "dev:client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "install:all": "npm --prefix server install & npm --prefix client install"
+  },
+  "keywords": ["mern", "food-donation", "ngo", "zero-waste", "sustainability", "react", "express", "mongodb"],
+  "author": "Antigravity",
+  "license": "MIT"
+}
